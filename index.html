@@ -247,9 +247,13 @@ footer span{color:var(--blue2)}
 
 hr.div{border:none;border-top:1px solid var(--border2)}
 @media(max-width:960px){
-  .hero-in{grid-template-columns:1fr;gap:2rem}
+  .hero-in{grid-template-columns:1fr;gap:0}
   .ag{grid-template-columns:1fr}
-  .hero-r{display:flex;justify-content:center;order:2}
+  .hero-r{display:flex!important;justify-content:center;order:2;margin:2rem 0}
+  .or1,.or2,.oi{display:none!important}
+  .ow{width:180px!important;height:180px!important}
+  .pc{width:170px!important;height:170px!important;border-width:3px}
+  .pglow{display:none!important}
   .sg{grid-template-columns:1fr}
   .pg{grid-template-columns:1fr}
   .nav-links{display:none}
@@ -289,14 +293,6 @@ hr.div{border:none;border-top:1px solid var(--border2)}
 .ham-open #nav-links a{font-size:1.1rem;padding:.3rem 0}
 @media(max-width:960px){#ham{display:flex!important}}
 
-@media(max-width:960px){
-  .hero-r{display:flex!important;justify-content:center;margin:1.5rem 0}
-  .ow{width:300px!important;height:300px!important}
-  .pc{width:160px!important;height:160px!important}
-  .or1{width:220px!important;height:220px!important}
-  .or2{width:300px!important;height:300px!important}
-  .oi{font-size:.55rem!important;padding:3px 8px!important}
-}
 </style>
 </head>
 <body>
